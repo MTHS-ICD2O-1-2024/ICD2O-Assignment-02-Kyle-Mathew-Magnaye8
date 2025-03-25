@@ -16,7 +16,7 @@ function calculateVolume() {
     const volume = Math.pow(sideLength, 3)
     // output
     document.getElementById("cube-volume").innerHTML =
-      "The volume of the cube is: " + volume.toFixed(2) + " cubic units."
+      "The volume of the cube is: " + volume.toFixed(2) + " m³."
   } else {
     document.getElementById("cube-volume").innerHTML = "Please enter a valid positive number."
   }
